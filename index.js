@@ -78,6 +78,11 @@ app.get("/user/:id", async (req, res) => {
 	//try catch is an error handling method
 });
 
+// MVC RULE
+ // MODELS
+ // VIEWS = ROUTES
+//  CONTROLLERS
+
 app.post("/login", validateLogin, async (req, res) => {
 	try {
 		// if(!req.user) {
