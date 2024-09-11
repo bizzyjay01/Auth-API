@@ -15,7 +15,7 @@ const validateRegistration = async (req, res, next) => {
 		return res.status(400).json({ message: errors });
 	}
 
-	next(); // i.e to continue. so the request on postman won just be loading
+	next(); // i.e to continue. so the request on postman won't just be loading
 };
 
 // Validate Login

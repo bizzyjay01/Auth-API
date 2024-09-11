@@ -132,5 +132,4 @@ app.get("/users", async (req,res)=>{
 app.post("/auth", validateToken, async(req,res)=>{
 
 	return res.status(200).json({message:"Successful", user:req.user})
-
 })
